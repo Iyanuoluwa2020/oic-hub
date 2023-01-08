@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.container p{
+    text-align: justify;
+}
+
+
+
+
+#more{
+    text-align: center;
+    color: rgb(241, 241, 142);
+    list-style-type: none;
+    font-size: xx-large;
+    padding: 30px;
+}
+#more a{
+    color: rgb(247, 247, 150);
+    text-decoration: none;
+}
+:hover#more{
+     color: blue;
+}
+:hover#more a{
+    color: blue;
+}
+
+
+#vismis{
+    overflow: hidden;
+    max-width: 100%;
+    padding: 20px;
+}
+
+
+#vision{
+    float: left;
+    width: 40%;
+    padding: 10px;
+}
+.vision h3{
+    color:rgb(146, 146, 250);
+    text-align: center;
+}
+.vision p{
+    text-align:center;
+}
+.vision{
+    background-color: whitesmoke;
+    height: 300px;
+}
+.vision1{
+    color:black;
+    text-align: center;
+}
+:hover.vision{
+    background-color: blue
+}
+:hover.vision h3{
+    color: white;
+}
+
+
+
+
+#mission{
+    float: left;
+    width: 60%;
+    padding: 10px;
+}
+.mission h3{
+    color: rgb(124, 124, 255);
+    text-align: center;
+}
+.mission p{
+    text-align: center;
+}
+.mission{
+    background-color: whitesmoke;
+    height: 400px;
+}
+.mission1{
+    color:black;
+    text-align: center;
+}
+:hover.mission{
+    background-color: rgb(124, 124, 255)
+}
+:hover.mission h3{
+    color: white;
+}
+
+@media (max-width:500px) {
+    #vision{
+        width: 100%;
+    }
+    #mission{
+        width: 100%;
+    }
+} 
+
+
+
+#whyus{
+    background-color: rgb(61, 60, 60);
+    color: white;
+    padding: 30px;
+    width: 100%;
+    height: 700px;
+    overflow:auto;
+    border: 1px solid #ccc;
+}
+#whyus h3{
+    padding: 10px;
+    text-align: center;
+   color: blue;
+}
+#whyus p{
+  text-align:center; 
+}
+#design{
+    overflow: hidden;
+    max-width: 100%;
+    padding-top:60px;
+}
+.design{
+    float: left;
+    width: 50%;
+}
+@media(max-width:500px) {
+    .design{
+        width: 100%;
+    }
+}
+
+
+:hover.design .fa-lemon{
+    color: white;
+}
+:hover.design .fa-mobile{
+    color: white;
+}
+:hover.design .fa-pen-to-square{
+    color: white;
+}
+:hover.design .fa-cart-shopping{
+    color: white;
+}
+
+
+
+
+
+
+#software{
+    overflow: hidden;
+    padding-top:100px;
+
+}
+#software img{
+    float: left;
+    width: 55%;
+    padding: 20px;
+}
+.software{
+    width: 40%;
+    float: right;
+    padding: 20px;
+}
+.software ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+  .software li a {
+    display: block;
+    color: rgb(119, 119, 238);
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .software li {
+    text-align: center;
+    border-bottom: 1px solid wheat;
+  }
+  .software li a:hover{
+    background-color: blue;
+    color: white;
+  }
+
+  @media(max-width:500px){
+    #software img{
+        width:100%;
+    }
+    .software{
+        width: 100%;
+    }
+    .software ul{
+        width: 100%;
+    }
+  }
+
+ 
+ #about{
+    overflow: hidden;
+    width: 100%;
+    padding: 30px;
+  }
+  #about img{
+    float: left;
+    width: 30%;
+  }
+  #about .about{
+    float: right;
+    width: 60%;
+  }
+  @media(max-width:500px){
+     #about img{
+        width: 100%;
+     }
+     #about .about{
+        width: 100%;
+     }
+  }
+
+
+
+
+ #about1{
+    overflow: hidden;
+    width: 100%;
+    padding: 30px;
+  }
+  #about1 img{
+    width: 40%;
+  }
+  #about1 .about1{
+    float: left;
+    width: 50%;
+  }
+
+  @media(max-width:500px){
+     #about1 img{
+        width: 100%;
+     }
+     #about1 .about1{
+        width: 100%;
+     }
+  }
+
